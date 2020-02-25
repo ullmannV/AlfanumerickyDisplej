@@ -101,10 +101,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Shift register" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1582663625864">
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1582664485453">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1582663625864" />
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1582664485453" />
     <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1582664470187">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -149,5 +149,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1582654541335" />
+    <state x="454" y="317" width="458" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582664504300">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="454" y="317" width="458" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1582664504300" />
   </component>
 </project>

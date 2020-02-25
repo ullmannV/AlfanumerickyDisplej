@@ -14,7 +14,7 @@
 #define DATA 0
 
 /* Znaky 7seg */
-const unsigned char chars_7seg[16] = {
+const unsigned char chars_7seg[] = {
         0x3F, /* 0 */
         0x06, /* 1 */
         0x5B, /* 2 */
