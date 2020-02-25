@@ -1,0 +1,3 @@
+/home/ullmannv/Documents/Programy/Skola/AlfanumerickyDisplej/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ullmannv/Documents/Programy/Skola/AlfanumerickyDisplej/cmake-build-debug/CMakeFiles/AlfanumerickyDisplej.dir
+/home/ullmannv/Documents/Programy/Skola/AlfanumerickyDisplej/cmake-build-debug/CMakeFiles/edit_cache.dir
