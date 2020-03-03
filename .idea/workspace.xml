@@ -45,6 +45,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
@@ -67,7 +68,7 @@
       <workItem from="1582654521091" duration="8653000" />
       <workItem from="1582718881967" duration="1321000" />
       <workItem from="1583178353480" duration="84000" />
-      <workItem from="1583247004813" duration="4491000" />
+      <workItem from="1583247004813" duration="6688000" />
     </task>
     <task id="LOCAL-00001" summary="Zakladni struktura programu">
       <created>1582656393103</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583247519463</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="alfanumerak init">
+      <created>1583265190110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583265190110</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,13 +146,18 @@
     <MESSAGE value="tick()" />
     <MESSAGE value="Nic se nezměnilo, jen chci udělat Víťovi na večer radost :))" />
     <MESSAGE value="Poznatky nabrane na hodine ... ano TURBO C je fakt k hovnu..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Poznatky nabrane na hodine ... ano TURBO C je fakt k hovnu..." />
+    <MESSAGE value="alfanumerak init" />
+    <option name="LAST_COMMIT_MESSAGE" value="alfanumerak init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1583247519271">
+    <state x="420" y="252" width="515" height="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583266020258">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583247519271" />
+    <state x="420" y="252" width="515" height="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1583266020258" />
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1583265190002">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583265190002" />
     <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1582720575826">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -193,5 +206,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="454" y="317" width="458" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1582664504300" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583267019602">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1583267019602" />
   </component>
 </project>
