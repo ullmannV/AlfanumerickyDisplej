@@ -44,7 +44,25 @@ const unsigned char chars_7seg[] = {
 };
 
 /* Znaky Alfanumericke */
-
+const unsigned short chars_14seg[] = {
+        0x0C3F, /* 0 */
+        0x0406, /* 1 */
+        0x00DB, /* 2 */
+        0x008F, /* 3 */
+        0x00E6, /* 4 */
+        0x2069, /* 5 */
+        0x00FD, /* 6 */
+        0x0007, /* 7 */
+        0x00FF, /* 8 */
+        0x00EF, /* 9 */
+        0x00F7, /* A */
+        0x128F, /* B */
+        0x0039, /* C */
+        0x120F, /* D */
+        0x0079, /* E */
+        0x0071, /* F */
+        0x0000  /* Space */
+};
 /* Definice typu Boolean */
 typedef enum {
     false, true
@@ -227,87 +245,87 @@ main(void)
                 program_run = false;
                 break;
             case '0':
-                zobrazovane_znaky[cursor] = chars_7seg[0];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[0] : chars_14seg[0];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '1':
-                zobrazovane_znaky[cursor] = chars_7seg[1];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[1] : chars_14seg[1];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '2':
-                zobrazovane_znaky[cursor] = chars_7seg[2];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[2] : chars_14seg[2];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '3':
-                zobrazovane_znaky[cursor] = chars_7seg[3];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[3] : chars_14seg[3];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '4':
-                zobrazovane_znaky[cursor] = chars_7seg[4];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[4] : chars_14seg[4];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '5':
-                zobrazovane_znaky[cursor] = chars_7seg[5];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[5] : chars_14seg[5];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '6':
-                zobrazovane_znaky[cursor] = chars_7seg[6];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[6] : chars_14seg[6];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '7':
-                zobrazovane_znaky[cursor] = chars_7seg[7];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[7] : chars_14seg[7];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '8':
-                zobrazovane_znaky[cursor] = chars_7seg[8];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[8] : chars_14seg[8];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case '9':
-                zobrazovane_znaky[cursor] = chars_7seg[9];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[9] : chars_14seg[9];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case 'a':
-                zobrazovane_znaky[cursor] = chars_7seg[10];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[10] : chars_14seg[10];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case 'b':
-                zobrazovane_znaky[cursor] = chars_7seg[11];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[11] : chars_14seg[11];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case 'c':
-                zobrazovane_znaky[cursor] = chars_7seg[12];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[12] : chars_14seg[12];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case 'd':
-                zobrazovane_znaky[cursor] = chars_7seg[13];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[13] : chars_14seg[13];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case 'e':
-                zobrazovane_znaky[cursor] = chars_7seg[14];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[14] : chars_14seg[14];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case 'f':
-                zobrazovane_znaky[cursor] = chars_7seg[15];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[15] : chars_14seg[15];
                 cursor++;
                 hitted_key = NULL;
                 break;
             case SPACE:
-                zobrazovane_znaky[cursor] = chars_7seg[16];
+                zobrazovane_znaky[cursor] = rezim == SMALL_SEG ? chars_7seg[16] : chars_14seg[16];
                 cursor++;
                 hitted_key = NULL;
                 break;
