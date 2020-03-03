@@ -67,7 +67,7 @@
       <workItem from="1582654521091" duration="8653000" />
       <workItem from="1582718881967" duration="1321000" />
       <workItem from="1583178353480" duration="84000" />
-      <workItem from="1583247004813" duration="436000" />
+      <workItem from="1583247004813" duration="4491000" />
     </task>
     <task id="LOCAL-00001" summary="Zakladni struktura programu">
       <created>1582656393103</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583178395517</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Poznatky nabrane na hodine ... ano TURBO C je fakt k hovnu...">
+      <created>1583247519463</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583247519463</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,13 +137,14 @@
     <MESSAGE value="Constanst 7Seg" />
     <MESSAGE value="tick()" />
     <MESSAGE value="Nic se nezměnilo, jen chci udělat Víťovi na večer radost :))" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nic se nezměnilo, jen chci udělat Víťovi na večer radost :))" />
+    <MESSAGE value="Poznatky nabrane na hodine ... ano TURBO C je fakt k hovnu..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Poznatky nabrane na hodine ... ano TURBO C je fakt k hovnu..." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1583178395085">
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1583247519271">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583178395085" />
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583247519271" />
     <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1582720575826">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
