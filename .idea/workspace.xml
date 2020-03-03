@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a6f7c9-7f87-439b-91e1-d3ac2fda11e2" name="Default Changelist" comment="" />
+    <list default="true" id="19a6f7c9-7f87-439b-91e1-d3ac2fda11e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +66,8 @@
       <updated>1582654517322</updated>
       <workItem from="1582654521091" duration="8653000" />
       <workItem from="1582718881967" duration="1321000" />
+      <workItem from="1583178353480" duration="84000" />
+      <workItem from="1583247004813" duration="436000" />
     </task>
     <task id="LOCAL-00001" summary="Zakladni struktura programu">
       <created>1582656393103</created>
@@ -106,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582720531835</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Nic se nezměnilo, jen chci udělat Víťovi na večer radost :))">
+      <created>1583178395511</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583178395517</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,13 +129,14 @@
     <MESSAGE value="Shift register" />
     <MESSAGE value="Constanst 7Seg" />
     <MESSAGE value="tick()" />
-    <option name="LAST_COMMIT_MESSAGE" value="tick()" />
+    <MESSAGE value="Nic se nezměnilo, jen chci udělat Víťovi na večer radost :))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nic se nezměnilo, jen chci udělat Víťovi na večer radost :))" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1582720531605">
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1583178395085">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1582720531605" />
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583178395085" />
     <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1582720575826">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -160,14 +173,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1582654798772" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1582664521466">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1583178418496">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1582664521466" />
-    <state x="344" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583178353911">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583178418496" />
+    <state x="344" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583247026351">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583178353911" />
+    <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583247026351" />
     <state x="454" y="317" width="458" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582664504300">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
