@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19a6f7c9-7f87-439b-91e1-d3ac2fda11e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,7 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RunManager">
     <configuration name="AlfanumerickyDisplej" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AlfanumerickyDisplej" TARGET_NAME="AlfanumerickyDisplej" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AlfanumerickyDisplej" RUN_TARGET_NAME="AlfanumerickyDisplej">
@@ -68,6 +71,8 @@
       <workItem from="1582718881967" duration="1321000" />
       <workItem from="1583178353480" duration="84000" />
       <workItem from="1583247004813" duration="7421000" />
+      <workItem from="1583686568714" duration="176000" />
+      <workItem from="1583870808464" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="Zakladni struktura programu">
       <created>1582656393103</created>
@@ -146,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583268051432</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tested &amp; Works &lt;3">
+      <created>1583686666246</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583686666246</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,17 +174,18 @@
     <MESSAGE value="alfanumerak init" />
     <MESSAGE value="Alfanumerak vlozenej juchuuuuu... teda snad juchu.... teda ono to stejne TURBO C rozmrda :(" />
     <MESSAGE value="Alfanumerak ma uz i definovana pismenka, kdo by rekl ze je potrebuje (:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alfanumerak ma uz i definovana pismenka, kdo by rekl ze je potrebuje (:" />
+    <MESSAGE value="Tested &amp; Works &lt;3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested &amp; Works &lt;3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="252" width="515" height="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583266020258">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="420" y="252" width="515" height="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1583266020258" />
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1583268051315">
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1583686666048">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583268051315" />
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583686666048" />
     <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1582720575826">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -205,18 +218,18 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1582664557797" />
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1582654798772">
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1583871134570">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1582654798772" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1583268064358">
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583871134570" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1583686686096">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583268064358" />
-    <state x="344" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583686588835">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583686686096" />
+    <state x="344" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583870808823">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583686588835" />
+    <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583870808823" />
     <state x="454" y="317" width="458" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582664504300">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
