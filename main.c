@@ -45,22 +45,24 @@ const unsigned char chars_7seg[] = {
 
 /* Znaky Alfanumericke */
 const unsigned short chars_14seg[] = {
+        /*DP. PN_MLKJ_HGFE_DCBA*/
+        /* 0  01 0001 0011 0001 */
         0x003F, /* 0 */
-        0x0006, /* 1 */
+        0x0086, /* 1 */
         0x111B, /* 2 */
         0x010F, /* 3 */
         0x1126, /* 4 */
-        0x2069, /* 5 */
-        0x00FD, /* 6 */
-        0x0007, /* 7 */
-        0x00FF, /* 8 */
-        0x00EF, /* 9 */
-        0x00F7, /* A */
-        0x128F, /* B */
+        0x112D, /* 5 */
+        0x113D, /* 6 */
+        0x0481, /* 7 */
+        0x113F, /* 8 */
+        0x1127, /* 9 */
+        0x1137, /* A */
+        0x054F, /* B */
         0x0039, /* C */
-        0x120F, /* D */
-        0x0079, /* E */
-        0x0071, /* F */
+        0x044F, /* D */
+        0x1139, /* E */
+        0x1131, /* F */
         0x0000  /* Space */
 };
 /* Definice typu Boolean */
