@@ -332,8 +332,8 @@ main(void) {
         break;
       case BACKSPACE:
         if (cursor == 0)
-          cursor = rezim == SMALL_SEG ? 5 : 4;
-        zobrazovane_znaky[--cursor] = chars_seg[rezim][16];;
+          cursor = rezim == SMALL_SEG ? SMALL_DISP_POZICE : BIG_DISP_POZICE;
+        zobrazovane_znaky[--cursor] = chars_seg[rezim][16];
         hitted_key = NULL;
         break;
       case TAB:

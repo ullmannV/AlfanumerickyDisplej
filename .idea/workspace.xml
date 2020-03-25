@@ -13,6 +13,11 @@
   <component name="ChangeListManager">
     <list default="true" id="19a6f7c9-7f87-439b-91e1-d3ac2fda11e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlfanumerickyDisplej.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlfanumerickyDisplej.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +77,8 @@
       <workItem from="1583247004813" duration="7421000" />
       <workItem from="1583686568714" duration="176000" />
       <workItem from="1583870808464" duration="518000" />
-      <workItem from="1584388138069" duration="5133000" />
+      <workItem from="1584388138069" duration="5427000" />
+      <workItem from="1585131129197" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="Zakladni struktura programu">
       <created>1582656393103</created>
@@ -172,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584390279126</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Better data structure">
+      <created>1584393676855</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584393676855</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,17 +204,18 @@
     <MESSAGE value="Tested &amp; Works &lt;3" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Constants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constants" />
+    <MESSAGE value="Better data structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better data structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="252" width="515" height="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583266020258">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="420" y="252" width="515" height="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1366.741@0.27.1366.741" timestamp="1583266020258" />
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1584390278951">
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2" timestamp="1584393676650">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1584390278951" />
+    <state x="185" y="27" width="986" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1584393676650" />
     <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1582720575826">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -238,13 +252,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583871134570" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1583871308091">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1584393698405">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583871308091" />
-    <state x="344" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584388143318">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1584393698405" />
+    <state x="344" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585131130606">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1585131130606" />
     <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1584388143318" />
     <state x="454" y="317" width="458" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582664504300">
       <screen x="0" y="27" width="1366" height="741" />
