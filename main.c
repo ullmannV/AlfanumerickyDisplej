@@ -67,11 +67,6 @@ const unsigned short chars_seg[2][17] = {
 
 };
 
-/* Definice typu Boolean */
-typedef enum {
-    false, true
-} bool;
-
 /* Definice typu rezim */
 enum display {
     SMALL_SEG, BIG_SEG
@@ -202,7 +197,7 @@ sendStartBit(void) {
 int
 main(void) {
   /* init */
-  bool program_run;
+  unsigned char program_run;
   void (*shiftSW)(const unsigned short *);    /*ukazatel na aktualni funkci posuvneho registru */
   enum display rezim = SMALL_SEG;
   unsigned char cursor = 0;
@@ -225,7 +220,7 @@ main(void) {
   clrscr();
 
   /* dokud je true, program se cyklicky vykonava */
-  program_run = true;
+  program_run = 1;
 
 
   do {
@@ -243,7 +238,7 @@ main(void) {
 
     switch (hitted_key) {
       case ESC:
-        program_run = false;
+        program_run = 0;
         break;
       case '0':
         zobrazovane_znaky[cursor] = chars_seg[rezim][0];
